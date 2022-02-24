@@ -9,7 +9,7 @@ on:
 env:
   NODE_VERSION: '16.x'
   AZURE_WEBAPP_NAME: slicedtomatoesf23123
-  AZURE_WEBAPP_PACKAGE_PATH: "/build"                
+  AZURE_WEBAPP_PACKAGE_PATH: "build"                
 
 jobs:
   build-and-deploy:
