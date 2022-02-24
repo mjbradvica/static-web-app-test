@@ -34,4 +34,4 @@ jobs:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_PUBLISH_SECRET }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-        startUpCommand: 'pm2 serve /index.html --spa --no-daemon'
+        startup-command: 'pm2 serve /index.html --spa --no-daemon'
