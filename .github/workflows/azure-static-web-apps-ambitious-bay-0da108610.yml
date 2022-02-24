@@ -30,7 +30,7 @@ jobs:
 
     - name: startup command
       run: |
-        echo '{ script: "pm2 serve /home/site/wwwroot --no-daemon --spa" }' >> build/process.json
+        echo '{ script: "npx serve -s" }' >> build/process.json
         
     - name: Deploy le App!
       uses: azure/webapps-deploy@v2
