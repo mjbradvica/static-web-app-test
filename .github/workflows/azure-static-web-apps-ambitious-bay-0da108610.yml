@@ -9,7 +9,7 @@ on:
 env:
   NODE_VERSION: '16.x'
   AZURE_WEBAPP_NAME: slicedtomatoesf23123
-  AZURE_WEBAPP_PACKAGE_PATH: "build" 
+  AZURE_WEBAPP_PACKAGE_PATH: "build"
   PM2_SERVE_PATH: '.',
   PM2_SERVE_PORT: 8080,
   PM2_SERVE_SPA: 'true',
