@@ -30,7 +30,7 @@ jobs:
 
     - name: startup command
       run: |
-        echo '{ "script": "serve /home/site/wwwroot", "env": { "PM2_SERVE_PATH": ".", "PM2_SERVE_PORT": 8080, "PM2_SERVE_SPA": 'true', "PM2_SERVE_HOMEPAGE": "./index.html" } }' >> build/process.json
+        echo '{ "script": "serve", "env": { "PM2_SERVE_PATH": "/home/site/wwwroot", "PM2_SERVE_PORT": 8080, "PM2_SERVE_SPA": 'true', "PM2_SERVE_HOMEPAGE": "./index.html" } }' >> build/process.json
         
     - name: Deploy le App!
       uses: azure/webapps-deploy@v2
